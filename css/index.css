@@ -35,11 +35,7 @@ a{
     justify-content: space-around;
     color: lightgrey;
 }
-/* .topnav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}  */
+
 .intro {
     display:flex;
     justify-content: space-around;
@@ -49,8 +45,13 @@ a{
 .started{
     display:flex;
     flex-direction:column;
-    align-items: ;
-    font-size: 60px;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: x-large;
+}
+.intro-phrase{
+    margin-top: 5%;
 }
 .top-core{
     display: flex;
@@ -65,8 +66,10 @@ a{
     display:flex;
 }
 .top-core .middle-img{
-align-content: center;
-margin-left: 12%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 .spv{
     display:flex;
