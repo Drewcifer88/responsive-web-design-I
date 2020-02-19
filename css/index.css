@@ -26,12 +26,16 @@ button{
     border:1px groove grey;
     padding:10px;
 }
+header{
+    display:flex;
+
+}
 a{
     color:grey;
 }
 .top{
-    display:flex;
-    flex-direction:row;
+    /* display:flex;
+    flex-direction:row; */
     justify-content: space-around;
     color: lightgrey;
 }
@@ -86,15 +90,20 @@ a{
 /* MOBIL VIEW */
 
 @media (max-width: 500px){
-    .top{
+    
+
+    header{
         display:flex;
+        flex-direction:column-reverse;
+        line-height: 3;
+    }
+    .top{
         flex-direction:column;
         justify-content: center; 
         align-items: center;
         margin: 1%;
         padding-top: 0;
         padding-bottom:0;
-        /* align-items: stretch; */
     }
     a{
         color:grey;
@@ -126,3 +135,9 @@ a{
         flex-direction:column;
     }
 } 
+
+/*  TABLET VIEW  */
+
+@media (max-width: 800px){
+    
+}
